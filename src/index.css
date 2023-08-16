@@ -1,13 +1,243 @@
+/* Global Styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  height: 60px;
+  padding: 0 20px;
+}
+.santa {
+  position: absolute;
+  top: 28%; /* Adjust this value to move the image higher */
+  right: 20px; /* Adjust this value to control the distance from the right edge */
+  transform: translateY(-40%);
+  margin-top: 8px; 
+  padding-top: 2px; /* Vertically center the element */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Style for the About component container */
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; /* Add margin as needed */
 }
+
+/* Style for the About image */
+.about-image {
+  flex: 1;
+  margin-top: 250px;
+}
+
+/* Style for the About content */
+.about-content {
+  flex: 1;
+  padding: 0 20px;
+  margin-top: 200px; /* Add padding as needed */
+}
+
+.header-title{
+padding-left: 90px;
+align-items: center;
+padding-top: 150px;
+}
+.details{
+  padding-left: 90px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.header-btn{
+  padding-left: 90px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: rgb(45, 12, 77);
+  padding: 20px; /* Add padding as needed */
+}
+
+.main{
+  background-color: #862e9c;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.header-title {
+  margin: 0;
+  color: white; /* Set the text color */
+}
+
+/* Style for the details */
+.details {
+  color: white; /* Set the text color */
+}
+
+/* Style for the input and button */
+.input,
+.btn {
+  margin-top: 10px; /* Add spacing between input and button */
+}
+
+.menu li {
+  margin: 0 17px;
+  background-color: purple;
+  padding: 13px 20px;
+  border-radius: 5px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.top-left-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.button {
+  margin-right: 10px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+/* Additional styling for the modified elements */
+.header-title {
+  font-weight: bold;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #862e9c;
+}
+.btn1{
+  background-color: rgb(200, 172, 31);
+}
+.btn1:hover{
+  background-color: #862e9c;
+}
+
+
+
+/* About Component Styles */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.about-content {
+  margin-top: 5px;
+ padding-top: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.about-content h1 {
+  font-size: 24px;
+}
+
+.about-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btn1 {
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.about-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pricing Component Styles */
+.pricing-box {
+  width: 200px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  border-radius: 10px; 
+}
+
+
+.pricing-box h2 {
+  margin: 0;
+}
+
+.pricing-box .box-content {
+  margin-bottom: 10px;
+}
+
+.pricing-box .features {
+  list-style-type: none;
+  padding: 0;
+}
+
+.pricing-box .features li {
+  padding: 5px 0;
+}
+
+/* Styling for the PricingPage component */
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Add any other styles as needed */
