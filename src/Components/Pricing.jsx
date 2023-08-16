@@ -9,7 +9,7 @@ function Pricing(props) {
         <h2>{title}</h2>
         <p className='main-text'>{mainText}</p>
         <ul className='features'>
-          {features.map((feature, index) => (
+          {features&&features.map((feature, index) => (
             <li key={index}>{feature}</li>
           ))}
         </ul>

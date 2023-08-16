@@ -148,12 +148,6 @@ padding-top: 150px;
 .btn:hover {
   background-color: #862e9c;
 }
-.btn1{
-  background-color: rgb(200, 172, 31);
-}
-.btn1:hover{
-  background-color: #862e9c;
-}
 
 
 
@@ -181,14 +175,23 @@ padding-top: 150px;
   margin-bottom: 20px;
 }
 
+
+
 .btn1 {
   background-color: purple;
   color: white;
   padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s; 
 }
+
+.btn1:hover {
+  background-color: rgb(87, 81, 87); 
+  color: white;
+}
+
+
+
 
 .about-image {
   text-align: center;
@@ -240,4 +243,184 @@ padding-top: 150px;
   gap: 20px;
 }
 
-/* Add any other styles as needed */
+/* Styles for the about-container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for the about-container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for the about-container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for the about-container */
+.about-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styles for the about-content1 section */
+.about-content1 {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.about-text {
+  flex: 1;
+  padding: 20px;
+  color: black;
+}
+
+.about-text h1, .about-text p {
+  margin: 0;
+}
+
+/* Styles for the About component */
+
+
+.about-text .btn1 {
+  background-color:purple;
+  color: white;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s; /* Adding a smooth transition */
+}
+
+.about-text .btn1:hover {
+  background-color:rgb(49, 42, 49); /* Change to your desired hover color */
+  color: white;
+}
+
+/* ... (other styles) ... */
+
+
+.img-container {
+  float: right;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+}
+/* Styles for the About component */
+/* ... (other styles) ... */
+
+.about-content2 {
+  display: flex;
+  flex-direction: row-reverse; /* Reverse the order of elements */
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.about-text1 {
+  flex: 1; /* Take up available space */
+  padding-right: 20px; /* Add space between text and image */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.about-text1 h1 {
+  color: black;
+}
+
+.about-text1 p {
+  color: black;
+  margin-top: 11px;
+}
+
+.btn2 {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  width: 111px; /* Set the desired width */
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center; /* Center the text horizontally */
+  /* Add any other styles you need */
+}
+
+.btn2:hover {
+  background-color: rgb(49, 42, 49); /* Change to your desired hover background color */
+  cursor: pointer;
+}
+
+.img-container1 {
+  flex: 1; /* Take up available space */
+}
+
+.img2 {
+  max-width: 100%; /* Ensure the image doesn't overflow */
+}
+
+/* Contact Component Styles */
+.contact-box {
+  width: 200px;
+  background-color: #f2f2f2;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  border-radius: 10px; 
+}
+
+.contact-box h2 {
+  margin: 0;
+}
+
+.contact-box .contact-content {
+  margin-bottom: 10px;
+}
+
+.contact-box .services {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-box .services li {
+  padding: 5px 0;
+}
+
+.contact-box .sub-text {
+  color: gray;
+}
+
+/* Contact Page Styles */
+.contact-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.button1 {
+  background-color: #570db2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button1:hover {
+  background-color: #4e4451;
+}
